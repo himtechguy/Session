@@ -1,0 +1,20 @@
+
+{
+  "name": "supreme-kai-session",
+  "version": "1.0.0",
+  "description": "SUPREME KAI MD WhatsApp session generator",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "archiver": "^7.0.1",
+    "express": "^4.21.2",
+    "pino": "^9.6.0"
+  }
+}
